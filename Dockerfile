@@ -1,7 +1,7 @@
 # sshd
 #
 
-FROM     centos:centos6
+FROM tianon/centos:5.10
 
 RUN yum update -y
 
